@@ -1,0 +1,138 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* No background here */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero .brand {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  margin: 0 0.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn-secondary {
+  background: #28a745;
+}
+
+.btn-secondary:hover {
+  background: #1e7e34;
+}
+.how-it-works {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.step {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.step h3 {
+  margin-bottom: 0.8rem;
+}
+
+.step ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    width: 90%;
+  }
+}
+
+.about,
+.how-it-works,
+.testimonials {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.about ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.step {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 220px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-left: 4px solid #007bff;
+}
+
+/* No background here */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #444;
+}
+
+.footer-links a {
+  color: #555;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #000;
+}

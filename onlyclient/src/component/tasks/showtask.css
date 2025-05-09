@@ -1,0 +1,35 @@
+.show-task-container {
+    padding: 20px;
+  }
+  
+  .task-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  .task-actions {
+    margin-top: 12px;
+  }
+  
+  .apply-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .applied-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .application-details {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,30 @@
+.applications-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+}
+
+.application-list {
+  list-style: none;
+  padding: 0;
+}
+
+.application-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.application-item h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.application-item p {
+  margin: 5px 0;
+}
